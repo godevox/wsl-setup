@@ -1,5 +1,7 @@
 # WSL Ubuntu-24.04 Setup Guide
 
+![WSL Ubuntu-24.04](https://example.com/path/to/image.png)
+
 Follow these steps to set up Ubuntu-24.04 on Windows Subsystem for Linux (WSL):
 
 ### Step-by-Step Installation
@@ -63,7 +65,14 @@ Follow these steps to set up Ubuntu-24.04 on Windows Subsystem for Linux (WSL):
     . "$HOME/.cargo/env"
     ```
 
-10. **Download and Install Zig:**
+10. **Verify Rust Installation:**
+
+    ```bash
+    rustc --version
+    cargo --version
+    ```
+
+11. **Download and Install Zig:**
 
     ```bash
     wget https://ziglang.org/download/0.13.0/zig-linux-x86_64-0.13.0.tar.xz
@@ -84,4 +93,11 @@ Follow these steps to set up Ubuntu-24.04 on Windows Subsystem for Linux (WSL):
 
     ```bash
     zig version
+    ```
+
+- **Verify Rust Installation:**
+
+    ```bash
+    rustc --version
+    cargo --version
     ```
