@@ -1,6 +1,6 @@
 # WSL Ubuntu-24.04 Setup Guide
 
-![WSL Ubuntu-24.04](https://example.com/path/to/image.png)
+![WSL Ubuntu-24.04](setup.png)
 
 Follow these steps to set up Ubuntu-24.04 on Windows Subsystem for Linux (WSL):
 
